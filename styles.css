@@ -1,5 +1,9 @@
 *{
     box-sizing: border-box;
+
+}
+
+body{
     font-family: "PT Sans", sans-serif;
 }
 
@@ -10,37 +14,45 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: white;
     overflow-x: hidden; /* Disable horizontal scroll */
     /* padding: 20px 20px; */
     border-right: 3px solid grey;
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(143, 78, 78);
   }
 
 .sidenavbar a {
     padding: 10px 8px 10px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: darkslategray;
+    color: white;
     display: block;
-    border: 1px solid grey;
+    border: 1px solid rgb(97, 33, 33);
 }
   
   /* When you mouse over the navigation links, change their color */
 .sidenavbar a:hover {
-    background-color: darkgray;
+    background-color: lightcoral;
     color: white;
 }
 
 .sidenavbar a:active {
-    background-color: yellow;
+    background-color: salmon;
 }
 
 .sidenavbar h1{
     text-align: center;
-    
+    color: white;
 }
 
 .container{
     margin: 0 20%;
+}
+
+table{
+    width: 130%;
+    border-collapse: collapse;
+}
+
+.tableOutput{
+    width: 100%;
 }
