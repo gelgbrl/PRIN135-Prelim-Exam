@@ -5,6 +5,7 @@
 
 body{
     font-family: "PT Sans", sans-serif;
+    background-color: rgb(238, 238, 238);
 }
 
 .sidenavbar {
@@ -52,6 +53,15 @@ table{
     width: 130%;
     border-collapse: collapse;
 }
+
+table img{
+    width: 100%;
+}
+
+table video{
+    width: 100%;
+}
+
 
 .tableOutput{
     width: 100%;
