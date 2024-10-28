@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+.sidenavbar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /* padding: 20px 20px; */
+    border-right: 3px solid grey;
+    background-color: rgb(238, 237, 237);
+  }
+
+.sidenavbar a {
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkslategray;
+    display: block;
+    border: 1px solid grey;
+}
+  
+  /* When you mouse over the navigation links, change their color */
+.sidenavbar a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.sidenavbar a:active {
+    background-color: yellow;
+}
+
+.sidenavbar h1{
+    text-align: center;
+    
+}
+
+.container{
+    margin: 0 20%;
+}
