@@ -20,7 +20,7 @@ body{
     background-color: rgb(143, 78, 78);
   }
 
-.sidenavbar a {
+.sidenavbar nav a {
     padding: 10px 8px 10px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -30,12 +30,12 @@ body{
 }
   
   /* When you mouse over the navigation links, change their color */
-.sidenavbar a:hover {
+.sidenavbar nav a:hover {
     background-color: lightcoral;
     color: white;
 }
 
-.sidenavbar a:active {
+.sidenavbar nav a:active {
     background-color: salmon;
 }
 
@@ -55,4 +55,14 @@ table{
 
 .tableOutput{
     width: 100%;
+}
+
+footer{
+    margin: 20px 10px;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
